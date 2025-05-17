@@ -44,7 +44,7 @@ def test_create_course(create_course_page: CreateCoursePage, courses_list_page: 
     )
     create_course_page.click_create_course_button()
 
-    courses_list_page.check_visible_add_course_button()
+    courses_list_page.check_visible_create_course_button()
     courses_list_page.check_visible_courses_title()
     courses_list_page.check_visible_course_card(
         index=0,

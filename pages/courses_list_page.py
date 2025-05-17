@@ -10,8 +10,6 @@ class CoursesListPage(BasePage):
         self.courses_title = page.get_by_test_id('courses-list-toolbar-title-text')
         self.create_course_button = page.get_by_test_id('courses-list-toolbar-create-course-button')
 
-        self.add_course_button = page.get_by_test_id('courses-list-toolbar-create-course-button')
-
         # Карточка курса
         self.course_title = page.get_by_test_id('course-widget-title-text')
         self.course_image = page.get_by_test_id('course-preview-image')
